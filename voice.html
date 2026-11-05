@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0d1020">
+<meta name="description" content="Map untuk nongkrong, mencari teman, ngobrol, dan bersosialisasi. Fitur voice chat dan ketersediaan server bisa berubah.">
+<title>Voice Chat – Map Roblox</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Bungee&display=swap" rel="stylesheet">
+<script>try{sessionStorage.getItem("rbx-pt")&&document.documentElement.classList.add("pt-in")}catch(e){}</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="t-voice" data-fx="🎙️,🔊,🎵,🎤,💬" style="--ac:#2ee6d6">
+<div class="fx" id="fx" aria-hidden="true"></div>
+<nav class="tabs" aria-label="Kategori"><a href="index.html" style="--c:#6ea8ff"><span class="te">🏠</span><span class="tf">Beranda</span><span class="ts">Beranda</span></a><a href="board.html" style="--c:#9be564"><span class="te">🎲</span><span class="tf">Board &amp; Card Games</span><span class="ts">Board</span></a><a href="knowledge.html" style="--c:#ffe14d"><span class="te">💡</span><span class="tf">Knowledge</span><span class="ts">Knowledge</span></a><a href="podcast.html" style="--c:#ff5ea0"><span class="te">🎧</span><span class="tf">Podcast &amp; Talk Show</span><span class="ts">Podcast</span></a><a href="voice.html" style="--c:#2ee6d6" aria-current=page><span class="te">🎙️</span><span class="tf">Voice Chat</span><span class="ts">Voice</span></a><a href="horror.html" style="--c:#ff5468"><span class="te">👻</span><span class="tf">Horror &amp; Survival</span><span class="ts">Horror</span></a><a href="tycoon.html" style="--c:#4da3ff"><span class="te">🏢</span><span class="tf">Business &amp; Tycoon</span><span class="ts">Tycoon</span></a><a href="puzzle.html" style="--c:#b97bff"><span class="te">🧩</span><span class="tf">Puzzle &amp; Mystery</span><span class="ts">Puzzle</span></a><a href="restoran.html" style="--c:#ffa63d"><span class="te">🍔</span><span class="tf">Restaurant, Shop &amp; Store</span><span class="ts">Restoran</span></a><a href="mount.html" style="--c:#3ddc97"><span class="te">⛰️</span><span class="tf">Map Mount</span><span class="ts">Mount</span></a></nav>
+<div class="wrap">
+<h1><span class="em">🎙️</span> Voice Chat</h1>
+<p class="lead">Map untuk nongkrong, mencari teman, ngobrol, dan bersosialisasi. Fitur voice chat dan ketersediaan server bisa berubah.</p>
+<section class="hud" aria-label="Progres"><b>Progres</b><div class="bar"><i id="bar"></i></div><span id="cnt"></span></section>
+<div class="tools"><input type="search" id="q" placeholder="Cari game..." aria-label="Cari game"><select id="so" aria-label="Urutkan"><option value="n">Urutan</option><option value="a">A–Z</option></select><button class="btn" id="rnd" type="button">🎲 Acak</button></div>
+<div class="flt"><label><input type="radio" name="s" value="all" checked> Semua</label><label><input type="radio" name="s" value="todo"> Belum</label><label><input type="radio" name="s" value="done"> Sudah</label></div>
+<ol class="grid">
+<li class="card" data-slug="indovoice" data-name="indo voice" data-title="Indo Voice" style="--i:0"><span class="no">1</span><h3>Indo Voice</h3><div class="act"><label class="chk"><input type="checkbox"> Sudah main</label><a class="go" href="https://www.roblox.com/discover/?keyword=Indo%20Voice" target="_blank" rel="noopener">Cari di Roblox ↗</a></div></li>
+<li class="card" data-slug="indocampvoicechat" data-name="indo camp [voice chat]" data-title="Indo Camp [Voice Chat]" style="--i:1"><span class="no">2</span><h3>Indo Camp [Voice Chat]</h3><div class="act"><label class="chk"><input type="checkbox"> Sudah main</label><a class="go" href="https://www.roblox.com/discover/?keyword=Indo%20Camp%20%5BVoice%20Chat%5D" target="_blank" rel="noopener">Cari di Roblox ↗</a></div></li>
+<li class="card" data-slug="indohangout" data-name="indo hangout" data-title="Indo Hangout" style="--i:2"><span class="no">3</span><h3>Indo Hangout</h3><div class="act"><label class="chk"><input type="checkbox"> Sudah main</label><a class="go" href="https://www.roblox.com/discover/?keyword=Indo%20Hangout" target="_blank" rel="noopener">Cari di Roblox ↗</a></div></li>
+<li class="card" data-slug="vcmicup" data-name="[vc] mic up" data-title="[VC] Mic Up" style="--i:3"><span class="no">4</span><h3>[VC] Mic Up</h3><div class="act"><label class="chk"><input type="checkbox"> Sudah main</label><a class="go" href="https://www.roblox.com/discover/?keyword=%5BVC%5D%20Mic%20Up" target="_blank" rel="noopener">Cari di Roblox ↗</a></div></li>
+<li class="card" data-slug="neighbors" data-name="neighbors" data-title="Neighbors" style="--i:4"><span class="no">5</span><h3>Neighbors</h3><div class="act"><label class="chk"><input type="checkbox"> Sudah main</label><a class="go" href="https://www.roblox.com/discover/?keyword=Neighbors" target="_blank" rel="noopener">Cari di Roblox ↗</a></div></li>
+<li class="card" data-slug="podiumsvc" data-name="podiums vc" data-title="Podiums VC" style="--i:5"><span class="no">6</span><h3>Podiums VC</h3><div class="act"><label class="chk"><input type="checkbox"> Sudah main</label><a class="go" href="https://www.roblox.com/discover/?keyword=Podiums%20VC" target="_blank" rel="noopener">Cari di Roblox ↗</a></div></li>
+<li class="card" data-slug="hutanvoicechat" data-name="hutan [voice chat]" data-title="Hutan [Voice Chat]" style="--i:6"><span class="no">7</span><h3>Hutan [Voice Chat]</h3><div class="act"><label class="chk"><input type="checkbox"> Sudah main</label><a class="go" href="https://www.roblox.com/discover/?keyword=Hutan%20%5BVoice%20Chat%5D" target="_blank" rel="noopener">Cari di Roblox ↗</a></div></li>
+<li class="card" data-slug="danauvoicechat" data-name="danau voice chat" data-title="DANAU Voice Chat" style="--i:7"><span class="no">8</span><h3>DANAU Voice Chat</h3><div class="act"><label class="chk"><input type="checkbox"> Sudah main</label><a class="go" href="https://www.roblox.com/discover/?keyword=DANAU%20Voice%20Chat" target="_blank" rel="noopener">Cari di Roblox ↗</a></div></li>
+<li class="card" data-slug="thecorner" data-name="the corner" data-title="The Corner" style="--i:8"><span class="no">9</span><h3>The Corner</h3><div class="act"><label class="chk"><input type="checkbox"> Sudah main</label><a class="go" href="https://www.roblox.com/discover/?keyword=The%20Corner" target="_blank" rel="noopener">Cari di Roblox ↗</a></div></li>
+<li class="card" data-slug="alamvoicechat" data-name="alam voice chat" data-title="ALAM Voice Chat" style="--i:9"><span class="no">10</span><h3>ALAM Voice Chat</h3><div class="act"><label class="chk"><input type="checkbox"> Sudah main</label><a class="go" href="https://www.roblox.com/discover/?keyword=ALAM%20Voice%20Chat" target="_blank" rel="noopener">Cari di Roblox ↗</a></div></li>
+<li class="card" data-slug="sawahindo" data-name="sawah indo" data-title="SAWAH Indo" style="--i:10"><span class="no">11</span><h3>SAWAH Indo</h3><div class="act"><label class="chk"><input type="checkbox"> Sudah main</label><a class="go" href="https://www.roblox.com/discover/?keyword=SAWAH%20Indo" target="_blank" rel="noopener">Cari di Roblox ↗</a></div></li>
+<li class="card" data-slug="indovoicehangout" data-name="indo voice hangout" data-title="Indo Voice Hangout" style="--i:11"><span class="no">12</span><h3>Indo Voice Hangout</h3><div class="act"><label class="chk"><input type="checkbox"> Sudah main</label><a class="go" href="https://www.roblox.com/discover/?keyword=Indo%20Voice%20Hangout" target="_blank" rel="noopener">Cari di Roblox ↗</a></div></li>
+<li class="card" data-slug="meetpeopleacrosstheworld" data-name="meet people across the world" data-title="Meet People Across The World" style="--i:12"><span class="no">13</span><h3>Meet People Across The World</h3><div class="act"><label class="chk"><input type="checkbox"> Sudah main</label><a class="go" href="https://www.roblox.com/discover/?keyword=Meet%20People%20Across%20The%20World" target="_blank" rel="noopener">Cari di Roblox ↗</a></div></li>
+<li class="card" data-slug="rapbattles" data-name="rap battles" data-title="Rap Battles" style="--i:13"><span class="no">14</span><h3>Rap Battles</h3><div class="act"><label class="chk"><input type="checkbox"> Sudah main</label><a class="go" href="https://www.roblox.com/discover/?keyword=Rap%20Battles" target="_blank" rel="noopener">Cari di Roblox ↗</a></div></li>
+<li class="card" data-slug="socialize" data-name="socialize!" data-title="Socialize!" style="--i:14"><span class="no">15</span><h3>Socialize!</h3><div class="act"><label class="chk"><input type="checkbox"> Sudah main</label><a class="go" href="https://www.roblox.com/discover/?keyword=Socialize%21" target="_blank" rel="noopener">Cari di Roblox ↗</a></div></li>
+</ol>
+<div class="empty" id="empty" hidden>Tidak ada game yang cocok. Coba kata kunci atau filter lain.</div>
+<footer>Tombol <b>Main di Roblox</b> membuka halaman game langsung. Tombol <b>Cari di Roblox</b> membuka halaman Discover Roblox dengan judulnya sebagai kata kunci, jadi pilih game yang paling cocok. Centangan tersimpan di perangkatmu.</footer>
+</div>
+<button class="top" id="top" type="button" aria-label="Ke atas">↑</button>
+<div class="toast" id="toast" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>
